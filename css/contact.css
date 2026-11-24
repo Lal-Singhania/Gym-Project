@@ -1,0 +1,153 @@
+/*contact*/
+.contact-container{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 1000; 
+    height: 500px;
+    width: 400px;
+    justify-self: center;
+    align-content: center;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+.contact-container.show{
+    display: flex;
+}
+.contact-box{
+    position: relative;
+    background-color: rgb(235, 211, 170);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+.contact-intro h3{
+    font-size: 40px;
+    text-align: top;
+    margin-left: 80px;
+    font-family: 'Roboto ';
+    margin-top: 15px;
+}
+.contact-intro img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 6px;
+    margin: -1px 10px;
+}
+.contact-input{
+    margin-top: 10px;
+}
+.value{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.value input{
+    padding: 12px;
+    width: 300px;
+    border-radius: 5px;
+}
+#question textarea{
+       padding: 10px;
+    width: 300px;
+    height: 120px;
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 20px;
+}
+.contact-btn{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  font-family: 'Roboto ';
+  font-size: 20px;
+  background-color: rgb(245, 203, 66);
+  margin-top: 20px;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 15px;
+}
+.links img{
+    height: 50px;
+}
+@media (max-width:780px) {
+    .contact-container{
+         position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+         z-index: 1000; 
+        height: 450px;
+        width: 350px;
+         justify-self: center;
+         align-content: center;
+         border-radius: 10px;
+         margin-top: 200px;
+    }
+    .contact-container.show{
+        display: flex;
+    }
+    .contact-box{
+    position: relative;
+    background-color: rgb(235, 211, 170);
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    }
+
+    .contact-intro h3{
+         font-size: 33px;
+        text-align: top;
+        margin-left: 75px;
+        font-family: 'Roboto ';
+    }
+    .contact-intro img{
+         width: 55px;
+        height: 45px;
+        position: absolute;
+        margin: 8px 1px;
+    }
+    .contact-btn{
+        padding: 7px;
+        width: 130px;
+        margin-top: 8px;
+    }
+    .links{
+        margin-top:10px;
+    }
+    .links img{
+        width: 40px;
+        height: 40px;
+    }
+    .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    }
+}

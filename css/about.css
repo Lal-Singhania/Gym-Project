@@ -1,0 +1,165 @@
+.about-sec{
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+     url("../image/about-bcakground.jpg") center / cover no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.about h2{
+    text-align: center;
+    padding: 4px;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.about h1{
+    text-align: center;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 205, 111);
+    letter-spacing: 1px;
+}
+.about span{
+    color: white;
+    font-family: 'Oswald';
+}
+.about-containt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 60px 10px;
+
+}
+.about-containt p{
+    flex: 1;
+    min-width: 0;
+    line-height: 1.8;
+    font-size: 1.04rem;
+     color: white;
+     font-weight: 600;
+     font-family: 'Courier New', Courier, monospace;
+}
+.about-containt p span{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    color: rgb(253, 223, 168);
+    font-weight: 750;
+}
+.slider-wrap{
+    flex: 1.2;
+    min-width: 0;
+}
+.slider img{
+    width: 780px;
+    height: 470px;
+    position: absolute;
+    transition: 1s;
+    border-radius: 40px;
+}
+
+.slider{
+    box-shadow: 0px 0px 3px grey;
+    width: 780px;
+    height: 470px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.move1{
+    width: 40px;
+    position: absolute;
+    background-color:rgb(248, 178, 47);
+    border-radius: 20px;
+    top: 450px;
+    right: 750px;
+    transform: rotate(180deg);
+}
+.move2{
+    background-color:rgb(248, 178, 47);
+    border-radius: 20px;
+    width: 40px;
+    position: absolute;
+    top: 460px;
+    right: 30px;
+}
+@media(max-width:780px){
+
+    .about-sec{
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+     url("../image/about-bcakground.jpg") center / cover no-repeat;
+    position: relative;
+    background-size: cover;
+}
+    .about h1{
+    text-align: center;
+    padding: 6px;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 100;
+}
+.about-containt{
+    display: inline-block;
+    max-width: 1500px;
+    margin: auto;
+    padding: 60px 10px;
+}
+.about-containt p{
+    font-size: 0.8rem;
+}
+.about-containt p span{
+    font-size: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    color: rgb(253, 223, 168);
+    font-weight: 750;
+}
+
+.slider img{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    transition: 1s;
+    border-radius: 10px;
+    -webkit-user-drag: none;
+}
+
+.slider{
+    box-shadow: 0px 0px 3px grey;
+    width: 350px;
+    height: 320px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    overflow: hidden;
+    cursor: grab;
+    touch-action: pan-y;
+}
+.slider:active{
+    cursor: grabbing;
+}
+
+.move1{
+    width: 30px;
+    position: absolute;
+    top: 880px;
+    left: 70px;
+    transform: rotate(180deg);
+}
+.move2{
+    width: 30px;
+    position: absolute;
+    top: 880px;
+    right: 30px;
+}
+
+}

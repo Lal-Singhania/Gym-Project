@@ -1,0 +1,19 @@
+.footer{
+ background-color: #252321;
+  min-height: 30vh;
+}
+
+.gym-info{
+    display: flex;
+    justify-content: center;
+   padding: 40px;
+}
+.gym-info img{
+    width: 70px;
+    height: 70px;
+}
+.gym-info h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px 10px;
+}

@@ -1,0 +1,181 @@
+.trainer{
+    background-color: #252321;
+    position: relative;
+}
+.trainer-details{
+    width: 450px;
+    text-align: left;
+    padding: 110px 0px;
+}
+.trainer-details h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 0px;
+}
+.trainer-details span{
+    color: rgb(241, 33, 33);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.trainer-details p{
+    font-size: 20px;
+    font-family: 'Montserrat ExtraBold';
+    color: white;
+    padding: 10px 0px;
+}
+.trainer img{
+    width: 500px;
+    height: 60vh;
+    position: absolute;
+    top: 265px;
+    right: 455px;
+    border-radius: 20px;
+}
+#square{
+    width: 520px;
+    height: 63vh;
+    position: absolute;
+    top: 250px;
+    right: 445px;
+    transform: rotate(6deg);
+}
+
+.trainer-details2{
+    width: 450px;
+    text-align: left;
+    position: absolute;
+    right: 0px;
+    top: 110px;
+}
+.trainer-details2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 10px 0px;
+}
+.trainer-details2 p{
+    font-family: 'Montserrat ExtraBold';
+    color: rgb(0, 0, 0);
+    padding: 0px 5px;
+    font-size: 30px;
+}
+#trainer-info{
+    margin-top: 200px;
+    padding: 0px 10px;
+}
+#trainer-info h1{
+    color: #E8E3DA;
+    font-family: 'Montserrat ExtraBold';
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1px;
+}
+.info{
+    font-family: 'Montserrat ExtraBold';
+    font-size: 30px;
+    font-weight: 500;
+    color:  #FFFFFF;
+}
+.trainer-contact{
+    position: absolute;
+    right: 50px;
+    padding: 10px 25px;
+    font-size: 25px;
+    background-color: rgb(253, 0, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.trainer-contact:hover{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+@media (max-width:780px){
+    .trainer-details{
+    width: 350px;
+    text-align: left;
+    padding: 50px 0px;
+}
+.trainer-details h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 0px;
+}
+.trainer-details span{
+    color: rgb(241, 33, 33);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.trainer-details p{
+    font-size: 15px;
+    font-family: 'Montserrat ExtraBold';
+    color: white;
+    padding: 10px 0px;
+}
+.trainer img{
+    width: 300px;
+    height: 45vh;
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    border-radius: 20px;
+}
+.trainer-details2{
+    display: none;
+}
+#square{
+    width: 300px;
+    height: 45vh;
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    transform: rotate(6deg);
+}
+
+#trainer-info{
+    margin-top: 350px;
+    padding: 20px 1px;
+}
+#trainer-info h1{
+    color: #E8E3DA;
+    font-family: 'Montserrat ExtraBold';
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1px;
+}
+.info{
+    font-family: 'Montserrat ExtraBold';
+    font-size: 23px;
+    font-weight: 500;
+    color:  #FFFFFF;
+}
+.trainer-contact{
+    position: absolute;
+    right: 15px;
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: rgb(253, 0, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.trainer-contact:hover{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+}

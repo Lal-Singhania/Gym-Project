@@ -1,0 +1,177 @@
+.logo{
+    width: 100px;
+    margin-top: 5px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto ';
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 20px;  
+    
+}
+nav ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.btn1{
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: rgb(248, 172, 22);
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.btn1:hover{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn2{
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: rgb(248, 172, 22);
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.btn2:hover{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.containt{
+    padding: 270px 20px;
+}
+.containt h1{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 60px;
+}
+.containt p{
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Picture{
+    pointer-events: none;
+    position: absolute;
+    float: right;
+    width: 580px;
+    bottom: 0;
+    right: 10%;
+}
+
+.anim{
+    opacity: 0;
+    animation: moveup 0.5s linear forwards;
+    transform: translateY(60px);
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.containt.anim{
+    animation-delay: 0.7ss;
+}
+.Picture.anim{
+    animation-delay: 1.3s;
+}
+button.anim{
+    animation-delay: 0.9s;
+}
+
+.menu{
+    display: none;
+}
+@media(max-width:780px){
+    .menu{
+        display: block;
+        padding: 6px;
+        background-color: gray;
+        margin-left: auto;
+        position: absolute;
+        right: 5px;
+        top: 2px;
+
+    }
+    .logo{
+      width: 60px;
+      margin-top: 5px;
+      position: absolute;
+      left: 10px;
+      top: 10px;  
+    }
+
+    nav ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul.active{
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        border-radius: 10px;
+        right: 0%;
+        top: 38px;
+    }
+    nav ul.active li{
+        width: 100%;
+    }
+    nav ul.active li a{
+        display: block;
+        padding: 8px 5px;
+    }
+    .Picture{
+        display: none;
+    }
+    .btn2{
+    padding: 15px 40px;
+    font-size: 25px;
+    font-weight: 540;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(248, 172, 22);
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 1px solid black;
+    position: absolute;
+    pointer-events: auto;
+  }
+  .btn1{
+    display: none;
+  }
+
+  .containt{
+    padding: 250px 20px;
+    pointer-events: none;
+
+}
+.containt h1{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 60px;
+}
+.containt p{
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+  
+}
