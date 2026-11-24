@@ -4,16 +4,67 @@
 }
 
 .gym-info{
-    display: flex;
-    justify-content: center;
-   padding: 40px;
-}
-.gym-info img{
-    width: 70px;
-    height: 70px;
+    text-align: center;
+    padding: 35px;
 }
 .gym-info h1{
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
     padding: 10px 10px;
+    font-size: 20px
+
+}
+.community{
+    text-align: center;
+}
+.community h1{
+    color: gold;
+    font-family: 'Oswald';
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 30px;
+    text-decoration: underline;
+}
+.community-info{
+    display: flex;
+    justify-content: center;
+    gap: 430px;
+}
+.community-info h1{
+    color: gold;
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: 10;
+    margin-top: 20px;
+}
+.community-info h1 span{
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;  
+}
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #777;
+    padding-top: 5px;
+}
+
+@media(max-width: 780px){
+    
+    .community h1{
+    color: gold;
+    font-family: 'Oswald';
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.community-info{
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+}
+.footer-line{
+    margin-top: 30px;
+    border-top: 1px solid #777;
+    padding-top: 5px;
+}
 }
