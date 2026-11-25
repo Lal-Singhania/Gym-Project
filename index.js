@@ -36,7 +36,7 @@ slider.forEach(
 
 //info send
 
-const owner = +918709878419;
+const owner = +919113373191;
 
 document.getElementById("contact").addEventListener("submit", function (e){
     e.preventDefault();
