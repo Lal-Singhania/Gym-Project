@@ -102,30 +102,29 @@
 }
     .about h1{
     text-align: center;
-    padding: 6px;
     font-family: 'Open Sans';
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
 }
 .about-containt{
     display: inline-block;
-    max-width: 1500px;
+    max-width: 280px;
     margin: auto;
-    padding: 60px 10px;
+    padding: 20px 0px;
 }
 .about-containt p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .about-containt p span{
     font-size: 10px;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     color: rgb(253, 223, 168);
-    font-weight: 750;
+    font-weight: 550;
 }
 
 .slider img{
-    width: 350px;
+    width: 280px;
     height: 320px;
     position: absolute;
     transition: 1s;
@@ -135,13 +134,12 @@
 
 .slider{
     box-shadow: 0px 0px 3px grey;
-    width: 350px;
+    width: 280px;
     height: 320px;
     position: relative;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 10px;
     overflow: hidden;
-    cursor: grab;
     touch-action: pan-y;
 }
 .slider:active{
@@ -149,17 +147,17 @@
 }
 
 .move1{
-    width: 30px;
+    width: 20px;
     position: absolute;
-    top: 880px;
-    left: 70px;
+    top: 1100px;
+    left: 60px;
     transform: rotate(180deg);
 }
 .move2{
-    width: 30px;
+    width: 20px;
     position: absolute;
-    top: 880px;
-    right: 30px;
+    top: 1100px;
+    right: 10px;
 }
 
 }

@@ -101,9 +101,9 @@
 
 @media (max-width:768px){
     .trainer-details{
-    width: 350px;
+    width: 280px;
     text-align: left;
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 .trainer-details h1{
     font-family: 'Bebas Neue', sans-serif;
@@ -130,8 +130,8 @@
     width: 300px;
     height: 45vh;
     position: absolute;
-    top: 200px;
-    right: 80px;
+    top: 220px;
+    right: 30px;
     border-radius: 20px;
 }
 .trainer-details2{
@@ -141,14 +141,14 @@
     width: 300px;
     height: 45vh;
     position: absolute;
-    top: 200px;
-    right: 80px;
+    top: 220px;
+    right: 30px;
     transform: rotate(6deg);
 }
 
 #trainer-info{
     margin-top: 350px;
-    padding: 20px 1px;
+    padding: 30px 1px;
 }
 #trainer-info h1{
     color: #E8E3DA;
