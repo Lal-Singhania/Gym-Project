@@ -1,7 +1,7 @@
 .trainer{
     background-color: #252321;
     position: relative;
-    height: 700px;
+    height: 750px;
 }
 .trainer-details{
     width: 450px;
@@ -128,33 +128,34 @@
     padding: 10px 0px;
 }
 .trainer img{
-    width: 300px;
-    height: 45vh;
+    width: 270px;
+    height: 40vh;
     position: absolute;
     top: 220px;
-    right: 30px;
+    right: 50px;
     border-radius: 20px;
 }
 .trainer-details2{
     display: none;
 }
 #square{
-    width: 300px;
-    height: 45vh;
+    width: 270px;
+    height: 40vh;
     position: absolute;
     top: 220px;
-    right: 30px;
+    right: 50px;
     transform: rotate(6deg);
 }
 
 #trainer-info{
-    margin-top: 280px;
+    width: 300px;
+    margin-top: 300px;
     padding: 10px;
 }
 #trainer-info h1{
     color: #E8E3DA;
     font-family: 'Montserrat ExtraBold';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     padding: 1px;
 }
