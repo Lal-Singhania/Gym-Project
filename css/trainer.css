@@ -150,7 +150,7 @@
 #trainer-info{
     position: absolute;
     left: 10px;
-    top: 300px;
+    top: 330px;
     width: 300px;
     padding: 10px;
 }
@@ -168,7 +168,7 @@
     color:  #FFFFFF;
 }
 .trainer-contact{
-    top: 580px;
+    top: 620px;
     right: 15px;
     padding: 8px 20px;
     font-size: 20px;
