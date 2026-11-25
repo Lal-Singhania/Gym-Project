@@ -1,6 +1,7 @@
 .trainer{
     background-color: #252321;
     position: relative;
+    height: 700px;
 }
 .trainer-details{
     width: 450px;
@@ -147,9 +148,8 @@
 }
 
 #trainer-info{
-    margin-top: 370px;
+    margin-top: 280px;
     padding: 10px;
-
 }
 #trainer-info h1{
     color: #E8E3DA;

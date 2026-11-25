@@ -124,7 +124,7 @@
 }
 
 .slider img{
-    width: 280px;
+    width: 290px;
     height: 320px;
     position: absolute;
     transition: 1s;
@@ -134,7 +134,7 @@
 
 .slider{
     box-shadow: 0px 0px 3px grey;
-    width: 280px;
+    width: 290px;
     height: 320px;
     position: relative;
     margin: auto;
@@ -157,7 +157,7 @@
     width: 20px;
     position: absolute;
     top: 1100px;
-    right: 40px;
+    right: 30px;
 }
 
 }
