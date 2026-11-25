@@ -26,8 +26,31 @@
     text-decoration: underline;
 }
 .community-info{
+    text-align: center;
+    padding: 35px;
+}
+.gym-info h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    padding: 10px 10px;
+    font-size: 20px
+
+}
+.community{
+    text-align: center;
+}
+.community h1{
+    color: gold;
+    font-family: 'Oswald';
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 30px;
+    text-decoration: underline;
+}
+.community-info{
     display: flex;
     justify-content: center;
+    gap: 430px;
     gap: 430px;
 }
 .community-info h1{
@@ -36,6 +59,16 @@
     font-size: 45px;
     font-weight: 10;
     margin-top: 20px;
+}
+.community-info h1{
+    color: gold;
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: 10;
+    margin-top: 20px;
+}
+.community-info h1 span{
+    color: rgb(255, 255, 255);
 }
 .community-info h1 span{
     color: rgb(255, 255, 255);
@@ -56,15 +89,15 @@
     font-size: 30px;
     text-transform: uppercase;
     text-decoration: underline;
-}
-.community-info{
+    }
+    .community-info{
     display: inline-block;
     text-align: center;
     padding: 40px;
-}
-.footer-line{
+    }
+    .footer-line{
     margin-top: 30px;
     border-top: 1px solid #777;
     padding-top: 5px;
-}
-}
+    }
+ }
