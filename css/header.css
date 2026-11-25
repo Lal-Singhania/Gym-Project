@@ -97,7 +97,7 @@ button.anim{
 .menu{
     display: none;
 }
-@media(max-width:780px){
+@media(max-width:768px){
     .menu{
         display: block;
         padding: 6px;

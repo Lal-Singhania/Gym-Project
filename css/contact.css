@@ -92,7 +92,7 @@
 .links img{
     height: 50px;
 }
-@media (max-width:780px) {
+@media (max-width:768px) {
     .contact-container{
          position: fixed;
         inset: 0;

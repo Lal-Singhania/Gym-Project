@@ -90,7 +90,7 @@
     transform: scale(1.15);
 }
 
-@media (max-width:780px){
+@media (max-width:768px){
     .plan-info{
     text-align: center;
     padding: 25px 10px;

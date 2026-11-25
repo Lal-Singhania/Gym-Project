@@ -99,7 +99,7 @@
     cursor: pointer;
 }
 
-@media (max-width:780px){
+@media (max-width:768px){
     .trainer-details{
     width: 350px;
     text-align: left;
