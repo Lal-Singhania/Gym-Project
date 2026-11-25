@@ -149,7 +149,7 @@
 
 #trainer-info{
     width: 300px;
-    margin-top: 300px;
+    margin-top: 330px;
     padding: 10px;
 }
 #trainer-info h1{
@@ -161,7 +161,7 @@
 }
 .info{
     font-family: 'Montserrat ExtraBold';
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 500;
     color:  #FFFFFF;
 }
